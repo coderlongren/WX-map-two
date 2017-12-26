@@ -1,0 +1,3 @@
+<!--pages/map/map.wxml-->
+<text>我的地图</text>
+  <map id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="{{scale}}" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" circles="{{circles}}" bindmarkertap="markertap" polyline="{{polyline}}" bindtap="bindtap" bindregionchange="regionchange" show-location style="width: 100%; height: {{view.Height}}px;"></map>
